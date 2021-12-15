@@ -1,5 +1,4 @@
-public class Main {
-    public static class ATM{
+public class ATM{
         public int countBanknotes(int sum){
             int result = 0;
             int[] banknotes = {500,200,100,50,20,10,5,2,1};
@@ -13,10 +12,6 @@ public class Main {
             }
             return result;
         }
-    }
-    public static void main(String[] args){
-        ATM bank = new ATM();
-        
-        System.out.println(bank.countBanknotes(736));
-    }
 }
+   
+
